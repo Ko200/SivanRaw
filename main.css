@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 105px;
+    background-color: white;
+    position:fixed;
+    overflow: hidden;
+    top:0;
+   
+}
+.navbar_heading
+{   margin:0;
+    float: left;
+    margin-left: 4.8%;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+
+}
+.navbar_links
+{
+    float: left;
+    list-style-type: none;
+    margin-left: 408px;
+    margin-top: 50px;
+    padding:0;
+
+}
+ul li a
+{
+    text-decoration: none;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: black;
+    padding:0;
+}
+ul li a:hover
+{
+    text-decoration: none;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: darkslategray;
+    padding:0;
+}
+ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ul li 
+{
+    float: left;        
+}
+
+.heading_subname
+{   padding:0;
+    margin-left: 70px;
+    font-weight: 100;
+  
+}
+.bold
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+.light
+{
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif; 
+}
+.home_image
+{   margin-left: 60px;
+    margin-right: 60px;
+    padding:0;
+    margin-top: 100px;
+}
+.footer_link_style
+{
+    height: 38px;
+    width: 38px;
+    margin:0;
+    margin-left: 5px;
+    padding-bottom: 12px;
+    margin-top: 35px;
+}
+
+.overview
+{   margin:0;
+    height:666px;
+    width:1222px;
+    margin-top: 100px;
+    margin-left:60px;
+}
+.commissioned
+{
+    float: left;
+    margin-right: .5px;
+    height:222px;
+    width: 610.5px;   
+    background-image: url("./commissioned.jpg");
+    background-size: cover;
+    image-resolution: 100px;
+}
+.exhibition_stall
+{
+    float: left;
+    margin-left: .5px;
+    height:222px;
+    width: 610.5px; 
+    background-image: url("./exhibitionstall.jpg");
+    background-size: cover;
+    image-resolution: 100px;
+
+}
+.jewllery
+{
+    float: left;
+    margin-right: .4px;
+    height:222px;
+    width: 406px; 
+    background-image: url("./jewellery.jpg");
+    background-size: cover;
+    image-resolution: 100px;
+}
+.portraits
+{
+    float: left;
+    margin-left: .4px;
+    margin-right: .4px;
+    height:222px;
+    width: 408px; 
+    background-image: url("./portraits.jpg");
+    background-size: cover;
+    image-resolution: 100px;
+
+}
+.interior
+{
+    float: left;
+    margin-left: .4px;
+    height:222px;
+    width: 406px; 
+    background-image: url("./interior.jpg");
+    background-size: cover;
+    image-resolution: 100px;
+
+}
+.events
+{
+    float: left;
+    margin-right: .5px;
+    height:222px;
+    width: 610.5px;   
+    background-image: url("./events.jpg");
+    background-size: cover; 
+    image-resolution: 100px; 
+}
+.spherical_panorama
+{
+    float: left;
+    margin-left: .5px;    
+    height:222px;
+    width: 610.5px;   
+    background-image: url("./spherical\ panorama.jpg");
+    background-size: cover;  
+    image-resolution: 100px;        
+}
+.h2-row-overview
+{
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+.overview-view2
+{   margin-left: 270px;
+    margin-right: 270px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.overview-view2:hover
+{   margin-left: 270px;
+    margin-right: 270px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    background-color: darkslategrey;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+}
+.overview-view3
+{   margin-left: 165px;
+    margin-right: 165px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    border: 1px solid white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.overview-view3:hover
+{   margin-left: 165px;
+    margin-right: 165px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: darkslategrey;
+    border-radius: 4px;
+    border: none;
+}
+.a-remove-underline
+{
+    text-decoration: none;
+}
+.about
+{
+    height: 666px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding:0;
+    margin-top: 100px;
+    width: 1222px;
+    float: left;
+}
+.about_image
+{   
+    float: left;
+    
+}
+.about_description
+{
+    background-color: aliceblue;
+    height: 666px;
+    float: left;
+    width: 611px;
+}
+.about_heading
+{
+    margin-top: 120px;
+    font-weight: 30PX;
+    font-weight: 100;
+}
+.about_descript
+{   margin-top: 50px;
+    margin-left: 50px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 15px;
+}
+.contact_container
+{   
+    height: 666px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding:0;
+    margin-top: 100px;
+    width: 1222px;
+    float: left;
+}
+.contact_image
+{
+    float: left;
+}
+.contact_main_heading
+{
+    margin-top: 140px;
+    font-weight: 100;
+    margin-bottom: 36px;
+    font-size: 40px;
+}
+.contact_details
+{   float: left;
+    background-color: beige;
+    height: 666PX;
+    width: 611px;
+
+}    
+.contact_thing
+{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.contact_form
+{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.input_name
+{
+    width: 380px;
+    height: 32px;
+    margin-top: 8px;
+    border: 1px thin whitesmoke;
+    font-weight: 100;
+}
+.input_note
+{
+    width: 380px;
+    height: 95px;
+    margin-top: 8px;
+    border: .2px thin grey;
+    font-weight: 100;
+
+}
+.input_submit
+{
+    margin-top: 10px;
+    padding-left: 176px;
+    padding-right: 176px;
+    height: 34px;
+    background-color: lightgray;
+    border: 0;
+    color: black;
+}
+.input_submit:hover
+{
+    margin-top: 10px;
+    padding-left: 176px;
+    padding-right: 176px;
+    height: 36px;
+    background-color:#573D11;
+    border: 0;
+    color: white;
+}
+.video_over
+{
+    margin:0;
+    height:666px;
+    width:1222px;
+    margin-top: 100px;
+    margin-left:60px;
+}
